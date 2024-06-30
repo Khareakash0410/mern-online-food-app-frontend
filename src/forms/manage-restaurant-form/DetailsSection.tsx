@@ -38,7 +38,7 @@ const DetailsSection = () => {
              control={control} 
              name="city"
              render={({ field }) => (
-             <FormItem>
+             <FormItem className="flex-1">
                 <FormLabel>
                     City
                 </FormLabel>
@@ -53,7 +53,7 @@ const DetailsSection = () => {
              control={control} 
              name="country"
              render={({ field }) => (
-             <FormItem>
+             <FormItem className="flex-1">
                 <FormLabel>
                     Country
                 </FormLabel>
