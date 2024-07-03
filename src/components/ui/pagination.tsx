@@ -118,4 +118,4 @@ export {
   PaginationPrevious,
   PaginationNext,
   PaginationEllipsis,
-}
+};
