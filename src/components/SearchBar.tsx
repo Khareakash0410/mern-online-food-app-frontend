@@ -60,7 +60,7 @@ return (
                                <FormItem className="flex-1">
                                    <FormControl>
                                            <Input 
-                                                {...field} className="border-none shadow-none text-xl focus-visible:ring-0" 
+                                                {...field} className="border-none shadow-none md:text-xl lg:text-xl sm:text-sm focus-visible:ring-0" 
                                                 placeholder={placeholder}
                                             />
                                    </FormControl>
