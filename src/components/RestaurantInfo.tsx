@@ -19,11 +19,12 @@ const RestaurantInfo = ({ restaurant }: Props) => {
              </CardDescription>
           </CardHeader>
 
-          <CardContent className="flex">
+          <CardContent className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {restaurant.cuisines.map((item, index) => (
                        <span className="flex">
-                           <span>{item}</span>  
-                           {index < restaurant.cuisines.length - 1 && <Dot />}
+                            
+                           {index < restaurant.cuisines.length && <Dot />}
+                           <span>{item}</span>
                        </span>
                 ))}
           </CardContent>
